@@ -1,0 +1,9 @@
+Package: pd-mapper
+Version: 0.1-1
+Architecture: arm64
+Maintainer: venji10 <venji10@riseup.net>
+Installed-Size: 28
+Depends: libc6 (>= 2.17), qrtr
+Section: misc
+Priority: optional
+Description: pd-mapper

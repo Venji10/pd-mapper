@@ -1,0 +1,12 @@
+Package: pd-mapper-dbgsym
+Source: pd-mapper
+Version: 0.1-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: venji10 <venji10@riseup.net>
+Installed-Size: 40
+Depends: pd-mapper (= 0.1-1)
+Section: debug
+Priority: optional
+Description: debug symbols for pd-mapper
+Build-Ids: 82cf23799562d0dfb44e02241751fb2412a7a624

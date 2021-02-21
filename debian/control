@@ -1,0 +1,10 @@
+Source: pd-mapper
+Maintainer: venji10 <venji10@riseup.net>
+Section: misc
+Priority: optional
+Build-Depends: debhelper (>= 9)
+
+Package: pd-mapper
+Architecture: any
+Depends: ${shlibs:Depends} ${misc:Depends}
+Description: pd-mapper
