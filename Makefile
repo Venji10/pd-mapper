@@ -20,6 +20,7 @@ $(PD_MAPPER): $(OBJS)
 install: $(PD_MAPPER)
 	@install -D -m 755 $(PD_MAPPER) $(DESTDIR)$(bindir)/$(PD_MAPPER)
 	@install -D -m 755 pd-mapper.initd $(DESTDIR)etc/init.d/$(OUT)
+	@install -D -m 644 LICENSE $(DESTDIR)usr/share/licenses/$(OUT)/COPYING
 
 clean:
 	rm -f $(PD_MAPPER) $(OBJS)
